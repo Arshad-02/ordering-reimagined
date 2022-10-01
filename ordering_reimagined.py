@@ -1,4 +1,4 @@
-from unicodedata import category
+import f_category
 import telebot
 import menu
 import os
