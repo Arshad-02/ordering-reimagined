@@ -1,8 +1,9 @@
 from unicodedata import category
 import telebot
 import menu
-token = "5554894418:AAHOpAPiyXuJyu2FRJPr4oXIDDqYk7Ueggg"
-bot = telebot.TeleBot(token)
+import os
+api_key = secret.TOKEN
+bot = telebot.TeleBot(TOKEN)
 count = False
 bill = ''
 bill_no = 1
